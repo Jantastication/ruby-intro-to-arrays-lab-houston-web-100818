@@ -1,7 +1,13 @@
 def instantiate_new_array
   array.new
 end
+def instantiate_new_array
+  []
+end
 
+def array_with_two_elements
+  [" ", " "]
+end
 def array_with_two_elements
   ["monday", "tuesday"]
 end
@@ -10,12 +16,16 @@ def first_element(array)
   array[0]
 end
 
-array[3]
+def first_element(array)
+  array[3]
+end
 
-array[-1]
+def first_element(array)
+  array[-1]
+end
 
 def first_element_with_array_methods(array)
-  array.unshift
+  array.first
 end
 
 def last_element_with_array_methods(array)
